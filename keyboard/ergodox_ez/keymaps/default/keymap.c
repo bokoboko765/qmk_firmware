@@ -84,10 +84,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_CAPS,        KC_TRNS,      KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,TG(BASE),
         TG(BASE),       KC_LSFT,      KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,
         KC_TRNS,        KC_TRNS,      KC_TRNS,KC_TRNS,KC_TRNS,KC_TRNS,TG(BASE),
-        KC_TRNS,        MO(KSL),      KC_LGUI,KC_TRANS,KC_LALT,
-                                               KC_TRANS,      KC_TRANS,
-                                                              KC_TRANS,
-                                               KC_SPC,KC_TRANS,KC_TRANS,
+        KC_TRNS,        MO(KSL),      KC_LGUI,KC_TRNS,KC_LALT,
+                                               KC_TRNS,      KC_TRNS,
+                                                              KC_TRNS,
+                                               KC_SPC,KC_TRNS,KC_TRNS,
         // right hand
              KC_PSCR,     KC_F6,  KC_F7,  KC_F8,  KC_F9,  KC_F10,           KC_F11,
              KC_TRNS,     KC_HOME,KC_DELT,KC_BSPC,KC_END, KC_TRNS,          KC_F12,
@@ -139,7 +139,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 KC_0,    KC_COMM, KC_DOT,  KC_TRNS,  KC_TRNS,
        KC_TRNS, KC_DELT,
        KC_TRNS,
-       KC_TRNS, KC_TRANS, KC_ENT
+       KC_TRNS, KC_TRNS, KC_ENT
     ),
     
 /* Keymap 3: Functions
@@ -166,7 +166,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // FN
 [FN] = KEYMAP(
        // left hand
-       KC_TRNS,     KC_TRANS,   KC_TRANS,KC_TRANS,KC_TRANS,KC_TRANS,KC_TRANS,
+       KC_TRNS,     KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        KC_TRNS,     KC_TRNS,    KC_7,    KC_8,    KC_9,    KC_TRNS, KC_TRNS,
        KC_TRNS,     KC_TRNS,    KC_4,    KC_5,    KC_6,    KC_TRNS,
        KC_TRNS,     KC_TRNS,    KC_1,    KC_2,    KC_3,    KC_TRNS, KC_TRNS,
