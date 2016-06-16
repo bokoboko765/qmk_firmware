@@ -126,7 +126,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_ESC,      KC_F1,      KC_F2,   KC_F3,   KC_F4,   KC_F5,   RESET,
        KC_TAB,      KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        KC_TRNS,     KC_TRNS,    KC_LSFT, KC_TRNS, KC_TRNS, KC_TRNS,
-       KC_LSFT,     KC_TRNS,    KC_LSFT, KC_TRNS, KC_TRNS, KC_TRNS, KC_LSFT,
+       KC_LSFT,     KC_TRNS,    KC_TRNS, KC_LSFT, KC_TRNS, KC_TRNS, KC_LSFT,
        KC_LCTL,     KC_TRNS,    KC_TRNS, KC_TRNS, KC_LALT,
                                                             KC_TRNS, KC_TRNS,
                                                                      KC_TRNS,
