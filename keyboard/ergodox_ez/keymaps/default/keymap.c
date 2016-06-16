@@ -108,7 +108,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * |        |      |LShift|      |      |      |------|           |------|  -   |  4$  |  5%  |  6^  |  +   |  =+    |
  * |--------+------+------+------+------+------|LShift|           |      |------+------+------+------+------+--------|
- * | LShift |      |      |      |      |      |      |           |      |  &   |  1!  |  2@  |  3#  |  \   | Enter  |
+ * | LShift |      |      |LShift|      |      |      |           |      |  &   |  1!  |  2@  |  3#  |  \   | Enter  |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
  *   |LCtrl |      |      |      | LAlt |                                       |  0   |  ,<  |  .>  |      |      |
  *   `----------------------------------'                                       `----------------------------------'
@@ -126,7 +126,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
        KC_ESC,      KC_F1,      KC_F2,   KC_F3,   KC_F4,   KC_F5,   RESET,
        KC_TAB,      KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
        KC_TRNS,     KC_TRNS,    KC_LSFT, KC_TRNS, KC_TRNS, KC_TRNS,
-       KC_LSFT,     KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_LSFT,
+       KC_LSFT,     KC_TRNS,    KC_LSFT, KC_TRNS, KC_TRNS, KC_TRNS, KC_LSFT,
        KC_LCTL,     KC_TRNS,    KC_TRNS, KC_TRNS, KC_LALT,
                                                             KC_TRNS, KC_TRNS,
                                                                      KC_TRNS,
