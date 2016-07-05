@@ -25,11 +25,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *   |LCtrl | LGui |paste | copy | LAlt |                                       | F13  |RCtrl | Left | Down | Right|
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,-------------.
- *                                        | ~L2  |      |       | Ins  | Del  |
+ *                                        | ~L2  | cut  |       | Ins  | Del  |
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      |PrtSc |       |      |        |      |
  *                                 |Space | ~L2  |------|       |------|  -_    |Enter |
- *                                 |      |      | F13  |       | F7   |        |      |
+ *                                 |      |      | ~L3  |       | F7   |        |      |
  *                                 `--------------------'       `----------------------'
  */
 // If it accepts an argument (i.e, is a function), it doesn't need KC_.
@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         LT(KSL,KC_EQL), KC_A,         KC_S,        KC_D,      KC_F,   KC_G,
         KC_LSFT,        CTL_T(KC_Z),  LT(NUM,KC_X),KC_C,      KC_V,   KC_B,   LCTL(KC_V),
         KC_LCTRL,       KC_LGUI,      LCTL(KC_V),LCTL(KC_C),KC_LALT,
-                                                               LT(NUM,KC_TRNS),KC_TRNS,
+                                                               LT(NUM,KC_TRNS),LCTL(KC_X),
                                                                               KC_PSCR,
                                                                KC_SPC,LT(NUM,KC_TRNS),LT(FN,KC_TRNS),
         // right hand
