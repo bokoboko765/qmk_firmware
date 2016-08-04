@@ -20,7 +20,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * | =/~L1  |   A  |   S  |   D  |   F  |   G  |------|           |------|   H  |   J  |   K  |   L  | ;/L3 |   /?   |
  * |--------+------+------+------+------+------|paste |           | *    |------+------+------+------+------+--------|
- * | LShift |Z/Ctrl| X/L2 |   C  |   V  |   B  |      |           |      |   N  |   M  |   ,  |   .  |  Up  |  '/L3  |
+ * | LShift |   Z  | X/L2 |   C  |   V  |   B  |      |           |      |   N  |   M  |   ,  |   .  |  Up  |  '/L3  |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
  *   |LCtrl | LGui |paste | copy | LAlt |                                       | kana |RCtrl | Left | Down | Right|
  *   `----------------------------------'                                       `----------------------------------'
@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_ESC,         KC_1,         KC_2,        KC_3,      KC_4,   KC_5,   KC_F13,
         KC_TAB,         KC_Q,         KC_W,        KC_E,      KC_R,   KC_T,   LCTL(KC_C),
         LT(KSL,KC_EQL), KC_A,         KC_S,        KC_D,      KC_F,   KC_G,
-        KC_LSFT,        CTL_T(KC_Z),  LT(NUM,KC_X),KC_C,      KC_V,   KC_B,   LCTL(KC_V),
+        KC_LSFT,        KC_Z,         LT(NUM,KC_X),KC_C,      KC_V,   KC_B,   LCTL(KC_V),
         KC_LCTRL,       KC_LGUI,      LCTL(KC_V),LCTL(KC_C),KC_LALT,
                                                                LT(NUM,KC_TRNS),LCTL(KC_X),
                                                                               KC_PSCR,
